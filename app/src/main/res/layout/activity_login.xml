@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/orange"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="127dp"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/srit_logo">
+    </ImageView>
+
+
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:background="#ffffff"
+        android:hint="username">
+    </EditText>
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:hint="password">
+    </EditText>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:text="login" />
+
+
+    <Button
+        android:id="@+id/guest"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:text="guest" />
+
+
+</LinearLayout>
